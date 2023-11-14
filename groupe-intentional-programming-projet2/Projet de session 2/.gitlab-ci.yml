@@ -1,0 +1,25 @@
+stages:
+  - install
+  - build
+  - test
+  - sonarqube_analysis
+
+install:
+  stage: install
+  script:
+  - echo "gitlab-ci install test"
+
+build:
+  stage: build
+  script:
+    - 
+
+test:
+  stage: test
+  script:
+    - 
+
+sonarqube_analysis:
+  stage: sonarqube_analysis
+  script:
+    - sonar-scanner
